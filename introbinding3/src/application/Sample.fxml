@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.SampleController">
+   <children>
+      <Slider fx:id="mSlider" blockIncrement="0.1" layoutX="258.0" layoutY="68.0" max="1.0" prefHeight="16.0" prefWidth="206.0" />
+      <ProgressBar fx:id="mProgress" layoutX="258.0" layoutY="115.0" prefHeight="28.0" prefWidth="206.0" progress="0.0" />
+      <ProgressIndicator fx:id="mIndicator" layoutX="328.0" layoutY="200.0" prefHeight="101.0" prefWidth="65.0" progress="0.0" />
+      <Button layoutX="258.0" layoutY="158.0" mnemonicParsing="false" onAction="#ajouter" prefHeight="28.0" prefWidth="36.0" text="&gt;&gt;" />
+      <Button layoutX="428.0" layoutY="158.0" mnemonicParsing="false" onAction="#diminuer" prefHeight="28.0" prefWidth="36.0" text="&lt;&lt;" />
+   </children>
+</AnchorPane>
